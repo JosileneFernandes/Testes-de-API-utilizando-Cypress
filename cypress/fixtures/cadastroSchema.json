@@ -1,0 +1,58 @@
+{
+    "required": [
+        "id",
+        "name",
+        "email",
+        "gender",
+        "status"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                5232
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Tenali Ramakrishna"
+            ]
+        },
+        "email": {
+            "type": "string",
+            "default": "",
+            "title": "The email Schema",
+            "examples": [
+                "tenali.ramakrishna@154ce.com"
+            ]
+        },
+        "gender": {
+            "type": "string",
+            "default": "",
+            "title": "The gender Schema",
+            "examples": [
+                "male"
+            ]
+        },
+        "status": {
+            "type": "string",
+            "default": "",
+            "title": "The status Schema",
+            "examples": [
+                "active"
+            ]
+        }
+    },
+    "examples": [{
+        "id": 5232,
+        "name": "Tenali Ramakrishna",
+        "email": "tenali.ramakrishna@154ce.com",
+        "gender": "male",
+        "status": "active"
+    }]
+}
